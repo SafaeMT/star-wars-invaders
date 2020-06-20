@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Star Wars Invaders</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="playground">
+    <h2 id="score"></h2>
+
+    <div class="menu">
+      <h1 class="title">Star Wars Invaders!</h1>
+      <hr>
+      <p class="content">
+        Empêchez les avions d'attaquer votre territoire en les attrapant!<br><br>
+        MAIS, évitez de croiser le chemin de Dark Vador, sinon, il sera votre père...
+      </p><br>
+      <button class="btn start">J'accepte les risques!</button>
+    </div>
+
+    <div class="gameover hidden">
+      <img src="img/darthvader.png" alt="Dark Vador">
+      <p class="content">jE sUiS ToN PèRe.</p>
+      <button class="btn reset">NOOOOOOOOOOOOOOON</button>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="robot.js"></script>
+
+</body>
+
+</html>
